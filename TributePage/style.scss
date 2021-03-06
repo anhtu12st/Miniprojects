@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+    padding: 10px;
+
+    .header {
+        padding: 0 25px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .quote1 {
+        margin-top: 1rem;
+        height: 75px;
+
+        p {
+            text-align: center;
+            font-family: 'Pacifico', cursive;
+            font-size: 25px;
+            padding: 12px;
+        }
+    }
+
+    .content {
+        width: 100%;
+        margin-bottom: 50px;
+
+        .subsection {
+            height: 10rem;
+            font-size: 5rem;
+            padding-left: 10rem;
+            color: #ececec;
+        }
+
+        .both {
+            display: flex;
+            flex-direction: row;
+
+            .left{
+                width: 800px;
+                
+                .line {
+                    display: flex;
+                    flex-direction: row;
+                    font-size: 14px;
+
+                    .date {
+                        line-height: 26px;
+                        width: 100px;
+                        font-weight: 700;
+                        text-align: center;
+                        padding: 4px 5px 6px 0;
+                        border-top: 2px solid #ccc;
+                    }
+
+                    .story {
+                        width: 625px;
+                        padding: 8px 12px 8px 8px;
+                        border-top: 1px solid #ccc;
+                        background-color: #f9f9f9;
+                    }
+                }
+            }
+
+            .right{
+                width: 300px;
+                padding-left: 10px;
+                
+                .header {
+                    text-align: center;
+                    text-transform: uppercase;
+                    font-size: 26px;
+                    font-weight: 700;
+                }
+
+                .image {
+                    img{
+                        width: 250px;
+                        height: 200px;
+                    }
+                }
+
+                .line {
+                    display: flex;
+                    text-align: center;
+                    flex-direction: row;
+                    font-size: 90%;
+                    margin-bottom: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    .state{
+                        width: 71px;
+                        margin-right: 3px;
+                        font-weight: bold;
+                    }
+
+                    .text {
+                        width: 213px;
+                        border-bottom: 1px solid #ccc;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer {
+        .quote {
+            font-family: 'Pacifico', cursive;
+            text-align: center;
+            font-size: 24px;
+            background-color: #ececec;
+
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
